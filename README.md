@@ -1,4 +1,4 @@
-# intern-training
+git # intern-training
 
 "Poornima"
 Day 1 setup complete
