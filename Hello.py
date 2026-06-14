@@ -10,3 +10,5 @@ print("Hello! ",Name)
 print(f'The intern is {Name} and {Age} years old and from chengalpattu')
 
 #this is a process to understand git cycle
+
+#using git pull
