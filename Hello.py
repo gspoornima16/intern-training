@@ -6,3 +6,5 @@ print(Age)
 print(is_intern)
 
 print("Hello! ",Name)
+
+print(f'The intern is {Name} and {Age} years old and from chengalpattu')
