@@ -51,4 +51,5 @@ print(f"Area of a rectangle is {R1.area()}")
 # print(s1.area())
 
 
-#learn  
+#learn 
+#day7
