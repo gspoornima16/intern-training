@@ -50,6 +50,3 @@ print(f"Area of a rectangle is {R1.area()}")
 # s1=Shape(5)
 # print(s1.area())
 
-
-#learn 
-#day7
