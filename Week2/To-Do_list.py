@@ -8,9 +8,10 @@ def add_task():
 
 def remove_task():
         task=input("Enter the task that you want to remove: ")
-        if task in To_Do_list:
+        try:
+            task in To_Do_list
             To_Do_list.remove(task)
-        else:
+        except ValueError :
             print("Task is not in list")
 
 def show_tasks():
@@ -22,15 +23,15 @@ while True:
     print("1. Add Task")
     print("2. Remove Task")
     print("3. Show Tasks")
+    try:
+        choice = int(input("Enter your choice: "))
 
-    choice = input("Enter your choice: ")
-
-    if choice == "1":
-        add_task()
-    elif choice == "2":
-        remove_task()
-    elif choice == "3":
-        show_tasks()
-        break
-    else:
+        if choice == 1:
+            add_task()
+        elif choice == 2:
+            remove_task()
+        elif choice == 3:
+            show_tasks()
+            break
+    except ValueError:
         print("Invalid choice")
