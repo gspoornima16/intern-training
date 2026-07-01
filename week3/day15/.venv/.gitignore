@@ -1,0 +1,6 @@
+*__pycache
+include
+Lib
+Scripts
+.lock
+CACHEDIR.TAG
